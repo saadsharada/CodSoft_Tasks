@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Basic Calculator</h1>
+  </div>
+  <div class="basic calculator">
+    <input type="text" id="output" readonly>
+    <div class="buttons">
+      <button onclick="EnterNumber('7')">7</button>
+      <button onclick="EnterNumber('8')">8</button>
+      <button onclick="EnterNumber('9')">9</button>
+      <button onclick="EnterOperator('+')">+</button>
+      <button onclick="EnterNumber('4')">4</button>
+      <button onclick="EnterNumber('5')">5</button>
+      <button onclick="EnterNumber('6')">6</button>
+      <button onclick="EnterOperator('-')">-</button>
+      <button onclick="EnterNumber('1')">1</button>
+      <button onclick="EnterNumber('2')">2</button>
+      <button onclick="EnterNumber('3')">3</button>
+      <button onclick="EnterOperator('*')">*</button>
+      <button onclick="EnterNumber('0')">0</button>
+      <button onclick="EnterOperator('/')">/</button>
+      <button onclick="Equal()">=</button>
+      <button onclick="clearResults()">C</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
